@@ -4,7 +4,9 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [
+    NxWelcomeComponent,
+    RouterModule],
   selector: 'org-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
