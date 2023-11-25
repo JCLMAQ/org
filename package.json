@@ -2,7 +2,12 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nxupdate": "nx migrate latest",
+    "nxmigrate": "nx migrate --run-migrations",
+    "pnpm-instal": "pnpm install --no-frozen-lockfile",
+    "pnpm-auto-update": "pnpm update"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.0.0",
