@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@org/task": ["libs/ui/task/src/index.ts"],
       "@org/user-list": ["libs/ui/user/src/index.ts"]
     }
   },
