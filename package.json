@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start: org-one": "nx serve org-one --host 127.0.0.1 --port 4300",
     "nxupdate": "nx migrate latest",
     "nxmigrate": "nx migrate --run-migrations",
     "pnpm-instal": "pnpm install --no-frozen-lockfile",
